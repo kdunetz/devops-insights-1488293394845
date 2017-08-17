@@ -7,7 +7,7 @@ var EJS = require('ejs');
 
 EJS.open = "<ejs>";
 EJS.close = "</ejs>";
-
+/* KEVIN */
 var host = process.env.PORT ? '0.0.0.0' : 'localhost';
 var port = (process.env.PORT || 3456);
 var url = require('url').format({hostname: host, port: port, protocol: 'http'});
